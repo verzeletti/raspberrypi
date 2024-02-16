@@ -3,9 +3,6 @@
 # Download script file and execute
 # wget -nv https://github.com/verzeletti/raspberrypi/raw/main/realvnc_bug-fix.sh && bash realvnc_bug-fix.sh
 
-echo "";
-echo "Logging with root and move script";
-
 # error while loading shared libraries: libbcm_host.so: cannot open shared object file
 echo "";
 echo "Update and install packages";
