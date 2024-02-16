@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Script File Download
+#wget -nv https://github.com/verzeletti/raspberrypi/raw/main/realvnc_bug-fix.sh
+
 # error while loading shared libraries: libbcm_host.so: cannot open shared object file
 echo Update and install packages
 sudo apt-get update
