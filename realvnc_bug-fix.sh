@@ -8,7 +8,7 @@ echo "Logging with root and move script" ;
 # error while loading shared libraries: libbcm_host.so: cannot open shared object file
 echo "Update and install packages";
 sudo apt-get update
-sudo apt-get install --reinstall libraspberrypi0 libraspberrypi-dev libraspberrypi-doc libraspberrypi-bin
+sudo apt-get -y install --reinstall libraspberrypi0 libraspberrypi-dev libraspberrypi-doc libraspberrypi-bin
 
 # error while loading shared libraries: /lib/arm-linux-gnueabihf/libmmal.so: file too short
 echo "Download and install dependencies";
